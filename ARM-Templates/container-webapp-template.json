@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "defaultValue": "azur1devops-dev",
+            "defaultValue": "tsassidevops-dev",
             "type": "String"
         },
         "hostingPlanName": {
-            "defaultValue": "azur1devops-asp",
+            "defaultValue": "tsassidevops-asp",
             "type": "String"
         },
         "appInsightsLocation": {
@@ -15,7 +15,7 @@
             "type": "String"
         },
         "appInsightsName": {
-            "defaultValue": "azur1devops-ai",
+            "defaultValue": "tsassidevops-ai",
             "type": "String"
         },        
         "sku": {
@@ -23,11 +23,11 @@
             "type": "String"
         },
         "registryName": {
-            "defaultValue": "azur1devopsreg",
+            "defaultValue": "tsassidevopsreg",
             "type": "String"
         },
         "imageName": {
-            "defaultValue": "azur1devopsimage",
+            "defaultValue": "tsassidevopsimage",
             "type":"String"
         },
         "registryLocation": {

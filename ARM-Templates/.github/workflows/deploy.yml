@@ -1,0 +1,16 @@
+name: Deploy to Azure
+run-name: ${{ github.actor }} is deploying to Azure 🚀
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - uses: azure/arm-deploy@v1
+      with:
+        resourceGroupName: catenaire
+        template: ./ARM-Templates/container-webapp-template.json
+        parameters: examples/template/parameters.json storageAccountType=Standard_LRS sqlServerPassword=${{ secrets.SQL_SERVER }}
+        additionalArguments: "--what-if --rollback-on-error --what-if-exclude-change-types Create Ignore"
