@@ -6,7 +6,7 @@
 
 ### Introduction
 
-Agile project management is a key component of building a modern DevOps culture at your organization. If you are new to Agile or just want a refresher, we recommend you review the following articles TOTO:
+Agile project management is a key component of building a modern DevOps culture at your organization. If you are new to Agile or just want a refresher, we recommend you review the following articles TOTO 2:
 
 1. [What is Agile?](https://docs.microsoft.com/en-us/azure/devops/learn/agile/what-is-agile)
 2. [What is Scrum](https://docs.microsoft.com/en-us/azure/devops/learn/agile/what-is-scrum)
