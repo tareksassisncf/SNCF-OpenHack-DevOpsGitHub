@@ -1,5 +1,6 @@
 name: Deploy to Azure
 run-name: ${{ github.actor }} is deploying to Azure 🚀
+on: workflow_dispatch
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
